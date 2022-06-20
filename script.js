@@ -9,10 +9,10 @@ const title = document.querySelector('#title')
 const cover = document.querySelector('#cover')
 
 // Song titles
-const songs = ['Understand', 'Gone', 'Heatwaves']
+const songs = ['Enemy - Imagine Dragons', 'Stay - The Kid LAROI, Justin Bieber', 'As It Was - Harry Styles', 'Dynamite - BTS', 'Understand - BoyWithUke', 'Gone - Rosé', 'Heatwaves - Glass Animals']
 
 //Keep track of songs
-let songIndex = 2
+let songIndex = 0
 
 // Initally load song info DOM
 loadSong(songs[songIndex])

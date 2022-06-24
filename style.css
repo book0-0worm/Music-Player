@@ -34,6 +34,7 @@ body {
 .img-container {
     position:relative;
     width: 110px;
+    filter: drop-shadow(1px 6px 6px black);
 }
 
 .img-container::after {
@@ -46,6 +47,7 @@ body {
     bottom: 50%;
     border-radius: 50%;
     transform: translate(-50%, -50%);
+    border: 2px solid black;
 }
 
 .img-container img {
